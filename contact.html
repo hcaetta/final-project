@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Retreat Resort | Contact</title>
+    <meta name="author" content="Hailie Caetta">
+    <meta name="description" content="Alpine Retreat Resort - Your perfect escape in the Swiss Alps">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <h1><a href="index.html">Alpine Retreat Resort</a></h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+        <img src="images/swiss-valley.jpg"
+            alt="A breathtaking view of a Swiss Alps valley with cloud-covered mountains and a river in the foreground."
+            width="1440" height="560">
+    </header>
+
+    <main>
+        <section class="section-1">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation
+                with us!</p>
+            <p>Required fields marked with a *</p>
+            <div id="swiss-sunset">
+            <img src="images/swiss-sunset.jpg"
+                alt="Photograph of a Swiss Alps sunset surrounded by mountains and tall pine trees in the background, and a large body of water in the foreground. Small Swiss chalet buildings are scattered along the riverside."
+                width="710" height="270">
+            </div>
+        </section>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+    
+            <div class="form-left">
+                <fieldset>
+                    <label for="full-name">Full Name:*</label>
+                    <input type="text" id="full-name" name="full-name" required>
+        
+                    <label for="email-address">Email Address:*</label>
+                    <input type="email" id="email-address" name="email-address" required>
+        
+                    <label for="phone-number">Phone Number:*</label>
+                    <input type="tel" id="phone-number" name="phone-number">
+                </fieldset>
+            </div>
+        
+            <div class="form-right">
+                <fieldset class="contact-method">
+                    <legend>Preferred Method of Contact</legend>
+                    <div class="radio-group">
+                        <label for="email-pref">
+                            <input type="radio" id="email-pref" name="contact-pref" value="email" checked>
+                            Email
+                        </label>
+        
+                        <label for="phone-pref">
+                            <input type="radio" id="phone-pref" name="contact-pref" value="phone">
+                            Phone
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="comment-container">
+                    <label for="comments" class="label-comments">Comments</label>
+                    <textarea name="comments" id="comments" required></textarea>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023 - Alpine Retreat Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+</body>
+
+</html>
